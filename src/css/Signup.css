@@ -1,0 +1,7 @@
+#name-container,
+#password-container,
+#email-container,
+#confirm-pass-container {
+  display: flex;
+  justify-content: space-between;
+}

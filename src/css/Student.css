@@ -1,0 +1,22 @@
+#back-button:hover {
+  cursor: pointer;
+}
+text {
+  color: skyblue;
+}
+.main-container {
+  display: flex;
+  justify-content: space-around;
+}
+#heading {
+  font-size: 3rem;
+  font-weight: 900;
+  color: red;
+}
+
+.buttons-container {
+  width: 30%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}

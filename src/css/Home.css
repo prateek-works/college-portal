@@ -1,0 +1,53 @@
+.main-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  background-color: skyblue;
+  background-image: url("../static/college-pic.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#outer-area {
+  border-radius: 80px;
+  width: 60rem;
+  height: 30rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 10px;
+}
+#heading-container {
+  color: blue;
+  border: 2px solid red;
+  width: 30rem;
+  margin: 0 auto;
+  border-radius: 70px;
+  border: 3px double brown;
+}
+#heading-container p {
+  font-weight: 600;
+  font-size: 3rem;
+  font-style: italic;
+}
+#buttons-container {
+  display: flex;
+  justify-content: space-around;
+  width: 30rem;
+  margin: 0 auto;
+  height: 10rem;
+  align-items: center;
+
+  border-radius: 20px;
+}
+#student-button,
+#teacher-button {
+  height: 5rem;
+  margin: 0 auto;
+  border: 5px double brown;
+  border-radius: 20px;
+}
